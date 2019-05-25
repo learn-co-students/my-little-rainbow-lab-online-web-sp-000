@@ -68,10 +68,10 @@ RSpec.describe 'Navigation and Nested Elements' do
         expect(blue_div.name).to eq('div'), "Add the id 'blue' to the fifth div"
       end
 
-      it 'contains a <div> tag with an id of "indigo" ' do
-        indigo_div = parsed_html.search('#indigo').first
-        expect(indigo_div).to_not be_nil, "Add the id 'indigo' to the sixth div"
-        expect(indigo_div.name).to eq('div'), "Add the id 'indigo' to the sixth div"
+      it 'contains a <div> tag with an id of "dark-purple" ' do
+        dark_purple_div = parsed_html.search('#dark-purple').first
+        expect(dark_purple_div).to_not be_nil, "Add the id 'dark-purple' to the sixth div"
+        expect(dark_purple_div.name).to eq('div'), "Add the id 'dark-purple' to the sixth div"
       end
 
       it 'contains a <div> tag with an id of "violet" ' do
