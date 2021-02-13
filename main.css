@@ -9,3 +9,31 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+
+#red { /* this selects any elements with the red id */
+  border-top-color: #f00;
+}
+
+#orange {
+  border-top-color: #ffa500;
+}
+
+#yellow {
+  border-top-color: #ff0;
+}
+
+#green {
+  border-top-color: #080;
+}
+
+#blue { 
+  border-top-color: #00f;
+}
+
+#indigo {
+  border-top-color: #4b0082;
+}
+
+#violet {
+  border-top-color: #ee82ee;
+}
