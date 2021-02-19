@@ -9,3 +9,24 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+#red { /* this selects any elements with the red id */
+  border-top-color: #f00;
+}
+#orange { /* this selects any elements with the orange id */
+  border-top-color: #ffa500;
+}
+#yellow { /* this selects any elements with the yellow id */
+  border-top-color: #ffff00;
+}
+#green { /* this selects any elements with the green id */
+  border-top-color: #008000;
+}
+#blue { /* this selects any elements with the blue id */
+  border-top-color: #0000ff;
+}
+#indigo { /* this selects any elements with the indigo id */
+  border-top-color: #4b0082;
+}
+#violet { /* this selects any elements with the violet id */
+  border-top-color: #ee82ee;
+}
